@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: ce7a747fa6992334191c0d1504d7305a
+timeCreated: 1517800312
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "Ba\xFA"
+    100002: "Ba\xFA.001"
+    100004: Camera
+    100006: Cenario
+    100008: Cenario2
+    100010: Cenario3
+    100012: Colina
+    100014: Colina2
+    100016: Colina3
+    100018: //RootNode
+    100020: Lago
+    100022: Palmeira.2
+    100024: Palmeiras Fundo
+    100026: Pedra.008
+    100028: Pedrinhas.019
+    100030: Structure
+    100032: Sun
+    100034: terreno
+    400000: "Ba\xFA"
+    400002: "Ba\xFA.001"
+    400004: Camera
+    400006: Cenario
+    400008: Cenario2
+    400010: Cenario3
+    400012: Colina
+    400014: Colina2
+    400016: Colina3
+    400018: //RootNode
+    400020: Lago
+    400022: Palmeira.2
+    400024: Palmeiras Fundo
+    400026: Pedra.008
+    400028: Pedrinhas.019
+    400030: Structure
+    400032: Sun
+    400034: terreno
+    2000000: Camera
+    2300000: "Ba\xFA"
+    2300002: "Ba\xFA.001"
+    2300004: Cenario
+    2300006: Cenario2
+    2300008: Cenario3
+    2300010: Colina
+    2300012: Colina2
+    2300014: Colina3
+    2300016: Lago
+    2300018: Palmeira.2
+    2300020: Palmeiras Fundo
+    2300022: Pedra.008
+    2300024: Pedrinhas.019
+    2300026: Structure
+    2300028: terreno
+    3300000: "Ba\xFA"
+    3300002: "Ba\xFA.001"
+    3300004: Cenario
+    3300006: Cenario2
+    3300008: Cenario3
+    3300010: Colina
+    3300012: Colina2
+    3300014: Colina3
+    3300016: Lago
+    3300018: Palmeira.2
+    3300020: Palmeiras Fundo
+    3300022: Pedra.008
+    3300024: Pedrinhas.019
+    3300026: Structure
+    3300028: terreno
+    4300000: "Ba\xFA.001"
+    4300002: Colina3
+    4300004: Colina2
+    4300006: Pedrinhas.019
+    4300008: Colina
+    4300010: Pedra.008
+    4300012: Cenario
+    4300014: Cenario2
+    4300016: Cenario3
+    4300018: "Ba\xFA"
+    4300020: Palmeiras Fundo
+    4300022: Lago
+    4300024: terreno
+    4300026: Structure
+    4300028: Palmeira.2
+    10800000: Sun
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Clay
+    second: {fileID: 2100000, guid: 8be623336128be247a85084a88affe48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grass
+    second: {fileID: 2100000, guid: 22e2eae733f4abd4b83cc4bc53980452, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hard Clay
+    second: {fileID: 2100000, guid: 3ff06e1fb6afdbd4082245d74892eded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light Clay
+    second: {fileID: 2100000, guid: 8f13f35884e15a24d8d3d6f78dab62db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightPalm
+    second: {fileID: 2100000, guid: bb66877c8da4aa84dbab6f4ffa78581f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LightWood
+    second: {fileID: 2100000, guid: 90361397631d8dd4e95fe62f4c2c7ddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 0b51cf1a83e351b4f90e4f35bd13b193, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PalmLeaf
+    second: {fileID: 2100000, guid: cbabe245f517a684091d11b6387751c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palmwood
+    second: {fileID: 2100000, guid: b390d31af25e7b74695b86a340f89e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand
+    second: {fileID: 2100000, guid: 698aa4bfdfc464747ba2aedfc378faa9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sand Texture
+    second: {fileID: 2100000, guid: 9113985f60d138043811c7421ae45842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandStone
+    second: {fileID: 2100000, guid: 27404d4ce3e67454cacfd0cf04320218, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandStone.001
+    second: {fileID: 2100000, guid: 5e669d703870ee54fb3df42306070e53, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandStone2
+    second: {fileID: 2100000, guid: 7130b54308b07374ab97757d35e7d31c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandStone3
+    second: {fileID: 2100000, guid: 2f8441279cdda3c4bbf6999a7685de12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Water
+    second: {fileID: 2100000, guid: b98a0da6261927b4280a0113fbf1651a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: 6888a651a0128124280546b9cc90036a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood.001
+    second: {fileID: 2100000, guid: f007d30a74372b148a0671c2ffbdc89f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

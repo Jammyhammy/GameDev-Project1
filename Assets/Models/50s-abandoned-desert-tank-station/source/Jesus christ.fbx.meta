@@ -1,0 +1,978 @@
+fileFormatVersion: 2
+guid: e45fa55caead046488c6a570d819ef6d
+timeCreated: 1517801646
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Barrel
+    100002: Barrel1
+    100004: Barrel10
+    100006: Barrel11
+    100008: Barrel12
+    100010: Barrel13
+    100012: Barrel14
+    100014: Barrel15
+    100016: Barrel16
+    100018: Barrel17
+    100020: Barrel18
+    100022: Barrel19
+    100024: Barrel2
+    100026: Barrel20
+    100028: Barrel3
+    100030: Barrel4
+    100032: Barrel5
+    100034: Barrel6
+    100036: Barrel7
+    100038: Barrel8
+    100040: Barrel9
+    100042: bjerrel:Barrel
+    100044: bjerrel:Barrel 1
+    100046: Board:Board
+    100048: Board:Leg_1
+    100050: Board:Leg_2
+    100052: Board:Sign
+    100054: Body
+    100056: Body 1
+    100058: Body 2
+    100060: Building:Board
+    100062: Building:Buiding
+    100064: Building:Shop
+    100066: Bush1
+    100068: Bush1 1
+    100070: Bush1 10
+    100072: Bush1 11
+    100074: Bush1 12
+    100076: Bush1 13
+    100078: Bush1 2
+    100080: Bush1 3
+    100082: Bush1 4
+    100084: Bush1 5
+    100086: Bush1 6
+    100088: Bush1 7
+    100090: Bush1 8
+    100092: Bush1 9
+    100094: Bush10
+    100096: Bush11
+    100098: Bush12
+    100100: Bush13
+    100102: Bush14
+    100104: Bush15
+    100106: Bush16
+    100108: Bush2
+    100110: Bush3
+    100112: Bush3 1
+    100114: Bush3 10
+    100116: Bush3 11
+    100118: Bush3 2
+    100120: Bush3 3
+    100122: Bush3 4
+    100124: Bush3 5
+    100126: Bush3 6
+    100128: Bush3 7
+    100130: Bush3 8
+    100132: Bush3 9
+    100134: Bush4
+    100136: Bush5
+    100138: Bush6
+    100140: Bush7
+    100142: Bush8
+    100144: Bush9
+    100146: Bush:Bush
+    100148: Bush:Bush 1
+    100150: Concrete:Concrete
+    100152: Concrete:Concrete 1
+    100154: directionalLight1
+    100156: Fender1
+    100158: Fender:Car_Fender
+    100160: Fender:Fender
+    100162: Flyer1
+    100164: Flyer2
+    100166: Flyer:Flyer
+    100168: Flyer:Piece_of_paper_that_says_nigger_faggot
+    100170: Flyer:Pin
+    100172: Gas_Pump1
+    100174: Gas_Pump1 1
+    100176: Gas_Pump2
+    100178: Gas_Pump:Body
+    100180: Gas_Pump:Gas_Pump
+    100182: Gas_Pump:Pump
+    100184: Gas_Pump:Tube
+    100186: George_Bush
+    100188: //RootNode
+    100190: Land:Landscape
+    100192: Land:pCube1
+    100194: LAndscape
+    100196: mouter_oiul:Oil_Can
+    100198: mouter_oiul:Oil_can
+    100200: Oil_can
+    100202: Oil_can1
+    100204: Oil_can2
+    100206: Parking_lot:pPlane1
+    100208: Piece_of_paper_that_says_nigger_faggot
+    100210: Piece_of_paper_that_says_nigger_faggot1
+    100212: Pilar
+    100214: Pilar1
+    100216: Pilar2
+    100218: Pin
+    100220: Pin 1
+    100222: Platform
+    100224: pPlane1
+    100226: pPlane2
+    100228: Pump
+    100230: Pump 1
+    100232: Road_man_shaq:Road
+    100234: Rock10
+    100236: Rock11
+    100238: Rock12
+    100240: Rock13
+    100242: Rock14
+    100244: Rock15
+    100246: Rock16
+    100248: Rock19
+    100250: Rock20
+    100252: Rock21
+    100254: Rock22
+    100256: Rock23
+    100258: Rock29
+    100260: Rock3
+    100262: Rock4
+    100264: Rock6
+    100266: Rock7
+    100268: Rock8
+    100270: Rock9
+    100272: Rock:Rock
+    100274: Rock:Stones
+    100276: Stack_of_tires
+    100278: Stack_of_tires1
+    100280: Stack_of_tires2
+    100282: Stack_of_tires3
+    100284: Station:Lights
+    100286: Station:pasted__spotLight1
+    100288: Station:pasted__spotLight2
+    100290: Station:pasted__spotLight3
+    100292: Station:Pilar
+    100294: Station:Platform
+    100296: Station:Roof
+    100298: Station:spotLight1
+    100300: Station:Station
+    100302: Tire1
+    100304: Tire10
+    100306: Tire11
+    100308: Tire12
+    100310: Tire13
+    100312: Tire2
+    100314: Tire3
+    100316: Tire3 1
+    100318: Tire3 2
+    100320: Tire3 3
+    100322: Tire4
+    100324: Tire4 1
+    100326: Tire4 2
+    100328: Tire4 3
+    100330: Tire5
+    100332: Tire5 1
+    100334: Tire5 2
+    100336: Tire5 3
+    100338: Tire6
+    100340: Tire6 1
+    100342: Tire6 2
+    100344: Tire6 3
+    100346: Tire7
+    100348: Tire7 1
+    100350: Tire7 2
+    100352: Tire8
+    100354: Tire9
+    100356: Tire:Tire
+    100358: Tire:Tires
+    100360: Tube
+    100362: Tube 1
+    400000: Barrel
+    400002: Barrel1
+    400004: Barrel10
+    400006: Barrel11
+    400008: Barrel12
+    400010: Barrel13
+    400012: Barrel14
+    400014: Barrel15
+    400016: Barrel16
+    400018: Barrel17
+    400020: Barrel18
+    400022: Barrel19
+    400024: Barrel2
+    400026: Barrel20
+    400028: Barrel3
+    400030: Barrel4
+    400032: Barrel5
+    400034: Barrel6
+    400036: Barrel7
+    400038: Barrel8
+    400040: Barrel9
+    400042: bjerrel:Barrel
+    400044: bjerrel:Barrel 1
+    400046: Board:Board
+    400048: Board:Leg_1
+    400050: Board:Leg_2
+    400052: Board:Sign
+    400054: Body
+    400056: Body 1
+    400058: Body 2
+    400060: Building:Board
+    400062: Building:Buiding
+    400064: Building:Shop
+    400066: Bush1
+    400068: Bush1 1
+    400070: Bush1 10
+    400072: Bush1 11
+    400074: Bush1 12
+    400076: Bush1 13
+    400078: Bush1 2
+    400080: Bush1 3
+    400082: Bush1 4
+    400084: Bush1 5
+    400086: Bush1 6
+    400088: Bush1 7
+    400090: Bush1 8
+    400092: Bush1 9
+    400094: Bush10
+    400096: Bush11
+    400098: Bush12
+    400100: Bush13
+    400102: Bush14
+    400104: Bush15
+    400106: Bush16
+    400108: Bush2
+    400110: Bush3
+    400112: Bush3 1
+    400114: Bush3 10
+    400116: Bush3 11
+    400118: Bush3 2
+    400120: Bush3 3
+    400122: Bush3 4
+    400124: Bush3 5
+    400126: Bush3 6
+    400128: Bush3 7
+    400130: Bush3 8
+    400132: Bush3 9
+    400134: Bush4
+    400136: Bush5
+    400138: Bush6
+    400140: Bush7
+    400142: Bush8
+    400144: Bush9
+    400146: Bush:Bush
+    400148: Bush:Bush 1
+    400150: Concrete:Concrete
+    400152: Concrete:Concrete 1
+    400154: directionalLight1
+    400156: Fender1
+    400158: Fender:Car_Fender
+    400160: Fender:Fender
+    400162: Flyer1
+    400164: Flyer2
+    400166: Flyer:Flyer
+    400168: Flyer:Piece_of_paper_that_says_nigger_faggot
+    400170: Flyer:Pin
+    400172: Gas_Pump1
+    400174: Gas_Pump1 1
+    400176: Gas_Pump2
+    400178: Gas_Pump:Body
+    400180: Gas_Pump:Gas_Pump
+    400182: Gas_Pump:Pump
+    400184: Gas_Pump:Tube
+    400186: George_Bush
+    400188: //RootNode
+    400190: Land:Landscape
+    400192: Land:pCube1
+    400194: LAndscape
+    400196: mouter_oiul:Oil_Can
+    400198: mouter_oiul:Oil_can
+    400200: Oil_can
+    400202: Oil_can1
+    400204: Oil_can2
+    400206: Parking_lot:pPlane1
+    400208: Piece_of_paper_that_says_nigger_faggot
+    400210: Piece_of_paper_that_says_nigger_faggot1
+    400212: Pilar
+    400214: Pilar1
+    400216: Pilar2
+    400218: Pin
+    400220: Pin 1
+    400222: Platform
+    400224: pPlane1
+    400226: pPlane2
+    400228: Pump
+    400230: Pump 1
+    400232: Road_man_shaq:Road
+    400234: Rock10
+    400236: Rock11
+    400238: Rock12
+    400240: Rock13
+    400242: Rock14
+    400244: Rock15
+    400246: Rock16
+    400248: Rock19
+    400250: Rock20
+    400252: Rock21
+    400254: Rock22
+    400256: Rock23
+    400258: Rock29
+    400260: Rock3
+    400262: Rock4
+    400264: Rock6
+    400266: Rock7
+    400268: Rock8
+    400270: Rock9
+    400272: Rock:Rock
+    400274: Rock:Stones
+    400276: Stack_of_tires
+    400278: Stack_of_tires1
+    400280: Stack_of_tires2
+    400282: Stack_of_tires3
+    400284: Station:Lights
+    400286: Station:pasted__spotLight1
+    400288: Station:pasted__spotLight2
+    400290: Station:pasted__spotLight3
+    400292: Station:Pilar
+    400294: Station:Platform
+    400296: Station:Roof
+    400298: Station:spotLight1
+    400300: Station:Station
+    400302: Tire1
+    400304: Tire10
+    400306: Tire11
+    400308: Tire12
+    400310: Tire13
+    400312: Tire2
+    400314: Tire3
+    400316: Tire3 1
+    400318: Tire3 2
+    400320: Tire3 3
+    400322: Tire4
+    400324: Tire4 1
+    400326: Tire4 2
+    400328: Tire4 3
+    400330: Tire5
+    400332: Tire5 1
+    400334: Tire5 2
+    400336: Tire5 3
+    400338: Tire6
+    400340: Tire6 1
+    400342: Tire6 2
+    400344: Tire6 3
+    400346: Tire7
+    400348: Tire7 1
+    400350: Tire7 2
+    400352: Tire8
+    400354: Tire9
+    400356: Tire:Tire
+    400358: Tire:Tires
+    400360: Tube
+    400362: Tube 1
+    2300000: Barrel
+    2300002: Barrel1
+    2300004: Barrel10
+    2300006: Barrel11
+    2300008: Barrel12
+    2300010: Barrel13
+    2300012: Barrel14
+    2300014: Barrel15
+    2300016: Barrel16
+    2300018: Barrel17
+    2300020: Barrel18
+    2300022: Barrel19
+    2300024: Barrel2
+    2300026: Barrel20
+    2300028: Barrel3
+    2300030: Barrel4
+    2300032: Barrel5
+    2300034: Barrel6
+    2300036: Barrel7
+    2300038: Barrel8
+    2300040: Barrel9
+    2300042: bjerrel:Barrel 1
+    2300044: Board:Board
+    2300046: Board:Leg_1
+    2300048: Board:Leg_2
+    2300050: Body
+    2300052: Body 1
+    2300054: Body 2
+    2300056: Building:Board
+    2300058: Building:Buiding
+    2300060: Bush1
+    2300062: Bush1 1
+    2300064: Bush1 10
+    2300066: Bush1 11
+    2300068: Bush1 12
+    2300070: Bush1 13
+    2300072: Bush1 2
+    2300074: Bush1 3
+    2300076: Bush1 4
+    2300078: Bush1 5
+    2300080: Bush1 6
+    2300082: Bush1 7
+    2300084: Bush1 8
+    2300086: Bush1 9
+    2300088: Bush16
+    2300090: Bush3
+    2300092: Bush3 1
+    2300094: Bush3 10
+    2300096: Bush3 11
+    2300098: Bush3 2
+    2300100: Bush3 3
+    2300102: Bush3 4
+    2300104: Bush3 5
+    2300106: Bush3 6
+    2300108: Bush3 7
+    2300110: Bush3 8
+    2300112: Bush3 9
+    2300114: Bush:Bush 1
+    2300116: Concrete:Concrete 1
+    2300118: Fender1
+    2300120: Fender:Fender
+    2300122: Flyer1
+    2300124: Flyer2
+    2300126: Flyer:Flyer
+    2300128: Flyer:Pin
+    2300130: Gas_Pump:Body
+    2300132: Gas_Pump:Pump
+    2300134: Gas_Pump:Tube
+    2300136: Land:Landscape
+    2300138: Land:pCube1
+    2300140: mouter_oiul:Oil_can
+    2300142: Oil_can
+    2300144: Oil_can1
+    2300146: Oil_can2
+    2300148: Parking_lot:pPlane1
+    2300150: Pilar
+    2300152: Pilar1
+    2300154: Pilar2
+    2300156: Pin
+    2300158: Pin 1
+    2300160: Platform
+    2300162: pPlane1
+    2300164: pPlane2
+    2300166: Pump
+    2300168: Pump 1
+    2300170: Road_man_shaq:Road
+    2300172: Rock10
+    2300174: Rock11
+    2300176: Rock12
+    2300178: Rock13
+    2300180: Rock14
+    2300182: Rock15
+    2300184: Rock16
+    2300186: Rock19
+    2300188: Rock20
+    2300190: Rock21
+    2300192: Rock22
+    2300194: Rock23
+    2300196: Rock29
+    2300198: Rock3
+    2300200: Rock4
+    2300202: Rock6
+    2300204: Rock7
+    2300206: Rock8
+    2300208: Rock9
+    2300210: Rock:Rock
+    2300212: Station:Pilar
+    2300214: Station:Platform
+    2300216: Station:Roof
+    2300218: Tire1
+    2300220: Tire10
+    2300222: Tire11
+    2300224: Tire12
+    2300226: Tire13
+    2300228: Tire2
+    2300230: Tire3
+    2300232: Tire3 1
+    2300234: Tire3 2
+    2300236: Tire3 3
+    2300238: Tire4
+    2300240: Tire4 1
+    2300242: Tire4 2
+    2300244: Tire4 3
+    2300246: Tire5
+    2300248: Tire5 1
+    2300250: Tire5 2
+    2300252: Tire5 3
+    2300254: Tire6
+    2300256: Tire6 1
+    2300258: Tire6 2
+    2300260: Tire6 3
+    2300262: Tire7
+    2300264: Tire7 1
+    2300266: Tire7 2
+    2300268: Tire8
+    2300270: Tire9
+    2300272: Tire:Tire
+    2300274: Tube
+    2300276: Tube 1
+    3300000: Barrel
+    3300002: Barrel1
+    3300004: Barrel10
+    3300006: Barrel11
+    3300008: Barrel12
+    3300010: Barrel13
+    3300012: Barrel14
+    3300014: Barrel15
+    3300016: Barrel16
+    3300018: Barrel17
+    3300020: Barrel18
+    3300022: Barrel19
+    3300024: Barrel2
+    3300026: Barrel20
+    3300028: Barrel3
+    3300030: Barrel4
+    3300032: Barrel5
+    3300034: Barrel6
+    3300036: Barrel7
+    3300038: Barrel8
+    3300040: Barrel9
+    3300042: bjerrel:Barrel 1
+    3300044: Board:Board
+    3300046: Board:Leg_1
+    3300048: Board:Leg_2
+    3300050: Body
+    3300052: Body 1
+    3300054: Body 2
+    3300056: Building:Board
+    3300058: Building:Buiding
+    3300060: Bush1
+    3300062: Bush1 1
+    3300064: Bush1 10
+    3300066: Bush1 11
+    3300068: Bush1 12
+    3300070: Bush1 13
+    3300072: Bush1 2
+    3300074: Bush1 3
+    3300076: Bush1 4
+    3300078: Bush1 5
+    3300080: Bush1 6
+    3300082: Bush1 7
+    3300084: Bush1 8
+    3300086: Bush1 9
+    3300088: Bush16
+    3300090: Bush3
+    3300092: Bush3 1
+    3300094: Bush3 10
+    3300096: Bush3 11
+    3300098: Bush3 2
+    3300100: Bush3 3
+    3300102: Bush3 4
+    3300104: Bush3 5
+    3300106: Bush3 6
+    3300108: Bush3 7
+    3300110: Bush3 8
+    3300112: Bush3 9
+    3300114: Bush:Bush 1
+    3300116: Concrete:Concrete 1
+    3300118: Fender1
+    3300120: Fender:Fender
+    3300122: Flyer1
+    3300124: Flyer2
+    3300126: Flyer:Flyer
+    3300128: Flyer:Pin
+    3300130: Gas_Pump:Body
+    3300132: Gas_Pump:Pump
+    3300134: Gas_Pump:Tube
+    3300136: Land:Landscape
+    3300138: Land:pCube1
+    3300140: mouter_oiul:Oil_can
+    3300142: Oil_can
+    3300144: Oil_can1
+    3300146: Oil_can2
+    3300148: Parking_lot:pPlane1
+    3300150: Pilar
+    3300152: Pilar1
+    3300154: Pilar2
+    3300156: Pin
+    3300158: Pin 1
+    3300160: Platform
+    3300162: pPlane1
+    3300164: pPlane2
+    3300166: Pump
+    3300168: Pump 1
+    3300170: Road_man_shaq:Road
+    3300172: Rock10
+    3300174: Rock11
+    3300176: Rock12
+    3300178: Rock13
+    3300180: Rock14
+    3300182: Rock15
+    3300184: Rock16
+    3300186: Rock19
+    3300188: Rock20
+    3300190: Rock21
+    3300192: Rock22
+    3300194: Rock23
+    3300196: Rock29
+    3300198: Rock3
+    3300200: Rock4
+    3300202: Rock6
+    3300204: Rock7
+    3300206: Rock8
+    3300208: Rock9
+    3300210: Rock:Rock
+    3300212: Station:Pilar
+    3300214: Station:Platform
+    3300216: Station:Roof
+    3300218: Tire1
+    3300220: Tire10
+    3300222: Tire11
+    3300224: Tire12
+    3300226: Tire13
+    3300228: Tire2
+    3300230: Tire3
+    3300232: Tire3 1
+    3300234: Tire3 2
+    3300236: Tire3 3
+    3300238: Tire4
+    3300240: Tire4 1
+    3300242: Tire4 2
+    3300244: Tire4 3
+    3300246: Tire5
+    3300248: Tire5 1
+    3300250: Tire5 2
+    3300252: Tire5 3
+    3300254: Tire6
+    3300256: Tire6 1
+    3300258: Tire6 2
+    3300260: Tire6 3
+    3300262: Tire7
+    3300264: Tire7 1
+    3300266: Tire7 2
+    3300268: Tire8
+    3300270: Tire9
+    3300272: Tire:Tire
+    3300274: Tube
+    3300276: Tube 1
+    4300000: Pin
+    4300002: Flyer1
+    4300004: Pin
+    4300006: Flyer2
+    4300008: Land:pCube1
+    4300010: Land:Landscape
+    4300012: Tire7
+    4300014: Tire6
+    4300016: Tire5
+    4300018: Tire4
+    4300020: Tire3
+    4300022: Tire7
+    4300024: Tire6
+    4300026: Tire5
+    4300028: Tire4
+    4300030: Tire3
+    4300032: Tire6
+    4300034: Tire5
+    4300036: Tire4
+    4300038: Tire3
+    4300040: Tire7
+    4300042: Tire6
+    4300044: Tire5
+    4300046: Tire4
+    4300048: Tire3
+    4300050: Bush3
+    4300052: Bush1
+    4300054: Bush3
+    4300056: Bush1
+    4300058: Bush3
+    4300060: Bush1
+    4300062: Bush3
+    4300064: Bush1
+    4300066: Bush3
+    4300068: Bush1
+    4300070: Bush3
+    4300072: Bush1
+    4300074: Bush3
+    4300076: Bush1
+    4300078: Bush3
+    4300080: Bush1
+    4300082: Bush3
+    4300084: Bush1
+    4300086: Bush3
+    4300088: Bush1
+    4300090: Bush3
+    4300092: Bush1
+    4300094: Bush3
+    4300096: Bush1
+    4300098: Bush:Bush
+    4300100: Bush1
+    4300102: Bush16
+    4300104: Bush1
+    4300106: Concrete:Concrete
+    4300108: Station:Pilar
+    4300110: Station:Roof
+    4300112: Station:Platform
+    4300114: Pilar
+    4300116: Platform
+    4300118: Pilar1
+    4300120: Pilar2
+    4300122: Road_man_shaq:Road
+    4300124: Building:Board
+    4300126: Building:Buiding
+    4300128: Gas_Pump:Tube
+    4300130: Gas_Pump:Pump
+    4300132: Gas_Pump:Body
+    4300134: Tube
+    4300136: Pump
+    4300138: Body
+    4300140: Tube
+    4300142: Pump
+    4300144: Body
+    4300146: Body
+    4300148: Rock:Rock
+    4300150: Rock3
+    4300152: Rock4
+    4300154: Rock6
+    4300156: Rock7
+    4300158: Rock8
+    4300160: Rock9
+    4300162: Rock10
+    4300164: Rock11
+    4300166: Rock12
+    4300168: Rock13
+    4300170: Rock14
+    4300172: Rock15
+    4300174: Rock16
+    4300176: Rock19
+    4300178: Rock20
+    4300180: Rock21
+    4300182: Rock22
+    4300184: Rock23
+    4300186: Rock29
+    4300188: bjerrel:Barrel
+    4300190: Barrel20
+    4300192: Barrel19
+    4300194: Barrel18
+    4300196: Barrel17
+    4300198: Barrel16
+    4300200: Barrel15
+    4300202: Barrel14
+    4300204: Barrel5
+    4300206: Barrel4
+    4300208: Barrel3
+    4300210: Barrel
+    4300212: Barrel1
+    4300214: Barrel2
+    4300216: Barrel6
+    4300218: Barrel7
+    4300220: Barrel8
+    4300222: Barrel9
+    4300224: Barrel10
+    4300226: Barrel11
+    4300228: Barrel12
+    4300230: Barrel13
+    4300232: Fender:Fender
+    4300234: Fender1
+    4300236: Tire:Tire
+    4300238: Tire13
+    4300240: Tire12
+    4300242: Tire11
+    4300244: Tire1
+    4300246: Tire2
+    4300248: Tire8
+    4300250: Tire9
+    4300252: Tire10
+    4300254: mouter_oiul:Oil_can
+    4300256: Oil_can
+    4300258: Oil_can1
+    4300260: Oil_can2
+    4300262: Flyer:Pin
+    4300264: Flyer:Flyer
+    4300266: Parking_lot:pPlane1
+    4300268: pPlane1
+    4300270: pPlane2
+    4300272: Board:Leg_2
+    4300274: Board:Leg_1
+    4300276: Board:Board
+    7400000: Take 001
+    9500000: //RootNode
+    10800000: directionalLight1
+    10800002: Station:pasted__spotLight1
+    10800004: Station:pasted__spotLight2
+    10800006: Station:pasted__spotLight3
+    10800008: Station:spotLight1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Board_lambert2
+    second: {fileID: 2100000, guid: 8d79061a3a329d143bd772929562adb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush_lambert2
+    second: {fileID: 2100000, guid: f242bfc3e23b5f447923845029b1c4ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fender_lambert2
+    second: {fileID: 2100000, guid: caa999b615b61a54490ed8bb9b21c4bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fender_lambert3
+    second: {fileID: 2100000, guid: caa999b615b61a54490ed8bb9b21c4bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Flyer_lambert2
+    second: {fileID: 2100000, guid: e758eb4f318f2ea4d90e06aeb7b2051f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas_Pump_lambert2
+    second: {fileID: 2100000, guid: ec24ad90c65a3a64dbdcf79d2ce4338a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas_Pump_lambert3
+    second: {fileID: 2100000, guid: ec24ad90c65a3a64dbdcf79d2ce4338a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Gas_Pump_lambert4
+    second: {fileID: 2100000, guid: ec24ad90c65a3a64dbdcf79d2ce4338a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Land_lambert3
+    second: {fileID: 2100000, guid: e75cfe2b34791b340b28626d0251481f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parking_lot_lambert2
+    second: {fileID: 2100000, guid: eb127b52aacb6704bb208aebb2cbe9eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock_lambert2
+    second: {fileID: 2100000, guid: 6cd968b846c6992409d750b95fdf86b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Station_lambert3
+    second: {fileID: 2100000, guid: 9ff0306de48cd694d824e9a9821fd810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Station_lambert5
+    second: {fileID: 2100000, guid: 9ff0306de48cd694d824e9a9821fd810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Station_lambert6
+    second: {fileID: 2100000, guid: 9ff0306de48cd694d824e9a9821fd810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tire_lambert2
+    second: {fileID: 2100000, guid: ac6a389d504696a47ae4c361787ce4b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bjerrel_lambert2
+    second: {fileID: 2100000, guid: f48d571edb18b5e43ad136f2dc575c9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: 1d6df8dc446cf5c45bb56953609cd352, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert2
+    second: {fileID: 2100000, guid: da203897ea84f6a49bf82c3a2a9fd39a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert3
+    second: {fileID: 2100000, guid: b921350ca0909444b82bd4f6240c9d45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert4
+    second: {fileID: 2100000, guid: 1166fac4fe0ed4947b7e47c072b4787b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mouter_oiul_lambert3
+    second: {fileID: 2100000, guid: 481df627abe30a040b51b9b430458acb, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

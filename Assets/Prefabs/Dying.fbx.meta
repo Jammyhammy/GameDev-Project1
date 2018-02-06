@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: debf53ec391124713afa8d15ad11d94b
+timeCreated: 1517513076
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Chest
+    100006: //RootNode
+    100008: Head
+    100010: Hips
+    100012: IndexFinger1_L
+    100014: IndexFinger1_R
+    100016: IndexFinger2_L
+    100018: IndexFinger2_R
+    100020: IndexFinger3_L
+    100022: IndexFinger3_R
+    100024: Left ankle
+    100026: Left arm
+    100028: Left elbow
+    100030: Left knee
+    100032: Left leg
+    100034: Left shoulder
+    100036: Left wrist
+    100038: LeftEye
+    100040: LittleFinger1_L
+    100042: LittleFinger1_R
+    100044: LittleFinger2_L
+    100046: LittleFinger2_R
+    100048: LittleFinger3_L
+    100050: LittleFinger3_R
+    100052: MiddleFinger1_L
+    100054: MiddleFinger1_R
+    100056: MiddleFinger2_L
+    100058: MiddleFinger2_R
+    100060: MiddleFinger3_L
+    100062: MiddleFinger3_R
+    100064: Neck
+    100066: Right ankle
+    100068: Right arm
+    100070: Right elbow
+    100072: Right knee
+    100074: Right leg
+    100076: Right shoulder
+    100078: Right wrist
+    100080: RightEye
+    100082: RingFinger1_L
+    100084: RingFinger1_R
+    100086: RingFinger2_L
+    100088: RingFinger2_R
+    100090: RingFinger3_L
+    100092: RingFinger3_R
+    100094: Root_Skirt_0_4
+    100096: Saber
+    100098: Skirt_0_10
+    100100: Skirt_0_11
+    100102: Skirt_0_4
+    100104: Skirt_0_5
+    100106: Skirt_0_6
+    100108: Skirt_0_7
+    100110: Skirt_0_8
+    100112: Skirt_0_9
+    100114: Skirt_10_10
+    100116: Skirt_10_11
+    100118: Skirt_10_4
+    100120: Skirt_10_5
+    100122: Skirt_10_6
+    100124: Skirt_10_7
+    100126: Skirt_10_8
+    100128: Skirt_10_9
+    100130: Skirt_11_10
+    100132: Skirt_11_11
+    100134: Skirt_11_4
+    100136: Skirt_11_5
+    100138: Skirt_11_6
+    100140: Skirt_11_7
+    100142: Skirt_11_8
+    100144: Skirt_11_9
+    100146: Skirt_12_10
+    100148: Skirt_12_11
+    100150: Skirt_12_4
+    100152: Skirt_12_5
+    100154: Skirt_12_6
+    100156: Skirt_12_7
+    100158: Skirt_12_8
+    100160: Skirt_12_9
+    100162: Skirt_13_10
+    100164: Skirt_13_11
+    100166: Skirt_13_4
+    100168: Skirt_13_5
+    100170: Skirt_13_6
+    100172: Skirt_13_7
+    100174: Skirt_13_8
+    100176: Skirt_13_9
+    100178: Skirt_1_10
+    100180: Skirt_1_11
+    100182: Skirt_1_4
+    100184: Skirt_1_5
+    100186: Skirt_1_6
+    100188: Skirt_1_7
+    100190: Skirt_1_8
+    100192: Skirt_1_9
+    100194: Skirt_2_10
+    100196: Skirt_2_11
+    100198: Skirt_2_4
+    100200: Skirt_2_5
+    100202: Skirt_2_6
+    100204: Skirt_2_7
+    100206: Skirt_2_8
+    100208: Skirt_2_9
+    100210: Skirt_3_10
+    100212: Skirt_3_11
+    100214: Skirt_3_4
+    100216: Skirt_3_5
+    100218: Skirt_3_6
+    100220: Skirt_3_7
+    100222: Skirt_3_8
+    100224: Skirt_3_9
+    100226: Skirt_4_10
+    100228: Skirt_4_11
+    100230: Skirt_4_4
+    100232: Skirt_4_5
+    100234: Skirt_4_6
+    100236: Skirt_4_7
+    100238: Skirt_4_8
+    100240: Skirt_4_9
+    100242: Skirt_5_10
+    100244: Skirt_5_11
+    100246: Skirt_5_4
+    100248: Skirt_5_5
+    100250: Skirt_5_6
+    100252: Skirt_5_7
+    100254: Skirt_5_8
+    100256: Skirt_5_9
+    100258: Skirt_6_10
+    100260: Skirt_6_11
+    100262: Skirt_6_4
+    100264: Skirt_6_5
+    100266: Skirt_6_6
+    100268: Skirt_6_7
+    100270: Skirt_6_8
+    100272: Skirt_6_9
+    100274: Skirt_7_10
+    100276: Skirt_7_11
+    100278: Skirt_7_4
+    100280: Skirt_7_5
+    100282: Skirt_7_6
+    100284: Skirt_7_7
+    100286: Skirt_7_8
+    100288: Skirt_7_9
+    100290: Skirt_8_10
+    100292: Skirt_8_11
+    100294: Skirt_8_4
+    100296: Skirt_8_5
+    100298: Skirt_8_6
+    100300: Skirt_8_7
+    100302: Skirt_8_8
+    100304: Skirt_8_9
+    100306: Skirt_9_10
+    100308: Skirt_9_11
+    100310: Skirt_9_4
+    100312: Skirt_9_5
+    100314: Skirt_9_6
+    100316: Skirt_9_7
+    100318: Skirt_9_8
+    100320: Skirt_9_9
+    100322: Spine
+    100324: Thumb0_L
+    100326: Thumb0_R
+    100328: Thumb1_L
+    100330: Thumb1_R
+    100332: Thumb2_L
+    100334: Thumb2_R
+    400000: Armature
+    400002: Body
+    400004: Chest
+    400006: //RootNode
+    400008: Head
+    400010: Hips
+    400012: IndexFinger1_L
+    400014: IndexFinger1_R
+    400016: IndexFinger2_L
+    400018: IndexFinger2_R
+    400020: IndexFinger3_L
+    400022: IndexFinger3_R
+    400024: Left ankle
+    400026: Left arm
+    400028: Left elbow
+    400030: Left knee
+    400032: Left leg
+    400034: Left shoulder
+    400036: Left wrist
+    400038: LeftEye
+    400040: LittleFinger1_L
+    400042: LittleFinger1_R
+    400044: LittleFinger2_L
+    400046: LittleFinger2_R
+    400048: LittleFinger3_L
+    400050: LittleFinger3_R
+    400052: MiddleFinger1_L
+    400054: MiddleFinger1_R
+    400056: MiddleFinger2_L
+    400058: MiddleFinger2_R
+    400060: MiddleFinger3_L
+    400062: MiddleFinger3_R
+    400064: Neck
+    400066: Right ankle
+    400068: Right arm
+    400070: Right elbow
+    400072: Right knee
+    400074: Right leg
+    400076: Right shoulder
+    400078: Right wrist
+    400080: RightEye
+    400082: RingFinger1_L
+    400084: RingFinger1_R
+    400086: RingFinger2_L
+    400088: RingFinger2_R
+    400090: RingFinger3_L
+    400092: RingFinger3_R
+    400094: Root_Skirt_0_4
+    400096: Saber
+    400098: Skirt_0_10
+    400100: Skirt_0_11
+    400102: Skirt_0_4
+    400104: Skirt_0_5
+    400106: Skirt_0_6
+    400108: Skirt_0_7
+    400110: Skirt_0_8
+    400112: Skirt_0_9
+    400114: Skirt_10_10
+    400116: Skirt_10_11
+    400118: Skirt_10_4
+    400120: Skirt_10_5
+    400122: Skirt_10_6
+    400124: Skirt_10_7
+    400126: Skirt_10_8
+    400128: Skirt_10_9
+    400130: Skirt_11_10
+    400132: Skirt_11_11
+    400134: Skirt_11_4
+    400136: Skirt_11_5
+    400138: Skirt_11_6
+    400140: Skirt_11_7
+    400142: Skirt_11_8
+    400144: Skirt_11_9
+    400146: Skirt_12_10
+    400148: Skirt_12_11
+    400150: Skirt_12_4
+    400152: Skirt_12_5
+    400154: Skirt_12_6
+    400156: Skirt_12_7
+    400158: Skirt_12_8
+    400160: Skirt_12_9
+    400162: Skirt_13_10
+    400164: Skirt_13_11
+    400166: Skirt_13_4
+    400168: Skirt_13_5
+    400170: Skirt_13_6
+    400172: Skirt_13_7
+    400174: Skirt_13_8
+    400176: Skirt_13_9
+    400178: Skirt_1_10
+    400180: Skirt_1_11
+    400182: Skirt_1_4
+    400184: Skirt_1_5
+    400186: Skirt_1_6
+    400188: Skirt_1_7
+    400190: Skirt_1_8
+    400192: Skirt_1_9
+    400194: Skirt_2_10
+    400196: Skirt_2_11
+    400198: Skirt_2_4
+    400200: Skirt_2_5
+    400202: Skirt_2_6
+    400204: Skirt_2_7
+    400206: Skirt_2_8
+    400208: Skirt_2_9
+    400210: Skirt_3_10
+    400212: Skirt_3_11
+    400214: Skirt_3_4
+    400216: Skirt_3_5
+    400218: Skirt_3_6
+    400220: Skirt_3_7
+    400222: Skirt_3_8
+    400224: Skirt_3_9
+    400226: Skirt_4_10
+    400228: Skirt_4_11
+    400230: Skirt_4_4
+    400232: Skirt_4_5
+    400234: Skirt_4_6
+    400236: Skirt_4_7
+    400238: Skirt_4_8
+    400240: Skirt_4_9
+    400242: Skirt_5_10
+    400244: Skirt_5_11
+    400246: Skirt_5_4
+    400248: Skirt_5_5
+    400250: Skirt_5_6
+    400252: Skirt_5_7
+    400254: Skirt_5_8
+    400256: Skirt_5_9
+    400258: Skirt_6_10
+    400260: Skirt_6_11
+    400262: Skirt_6_4
+    400264: Skirt_6_5
+    400266: Skirt_6_6
+    400268: Skirt_6_7
+    400270: Skirt_6_8
+    400272: Skirt_6_9
+    400274: Skirt_7_10
+    400276: Skirt_7_11
+    400278: Skirt_7_4
+    400280: Skirt_7_5
+    400282: Skirt_7_6
+    400284: Skirt_7_7
+    400286: Skirt_7_8
+    400288: Skirt_7_9
+    400290: Skirt_8_10
+    400292: Skirt_8_11
+    400294: Skirt_8_4
+    400296: Skirt_8_5
+    400298: Skirt_8_6
+    400300: Skirt_8_7
+    400302: Skirt_8_8
+    400304: Skirt_8_9
+    400306: Skirt_9_10
+    400308: Skirt_9_11
+    400310: Skirt_9_4
+    400312: Skirt_9_5
+    400314: Skirt_9_6
+    400316: Skirt_9_7
+    400318: Skirt_9_8
+    400320: Skirt_9_9
+    400322: Spine
+    400324: Thumb0_L
+    400326: Thumb0_R
+    400328: Thumb1_L
+    400330: Thumb1_R
+    400332: Thumb2_L
+    400334: Thumb2_R
+    4300000: Body
+    7400000: mixamo.com
+    9500000: //RootNode
+    13700000: Body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA0"
+    second: {fileID: 2100000, guid: d67a295ece33f734ca8c808260197f82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA1"
+    second: {fileID: 2100000, guid: d67a295ece33f734ca8c808260197f82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA10"
+    second: {fileID: 2100000, guid: 6bf421b661531bb41b36426452976449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA11"
+    second: {fileID: 2100000, guid: c18302be85119fe46baf6a7a58073712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA13"
+    second: {fileID: 2100000, guid: d60c295984f0a874b87a844f3d2e686b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA14"
+    second: {fileID: 2100000, guid: ec22f3394685ecf48aead9d669412e67, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA15"
+    second: {fileID: 2100000, guid: 99c26cc86fbcc824faaee01f5b04f524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA16"
+    second: {fileID: 2100000, guid: 4c2357d812545f543b71043d19c249be, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA17"
+    second: {fileID: 2100000, guid: 88fabff6c60b59e43ae906b12a2f32dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA18"
+    second: {fileID: 2100000, guid: 88fabff6c60b59e43ae906b12a2f32dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA19"
+    second: {fileID: 2100000, guid: 3ff24504670adc0478f9cab848f16b9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA2"
+    second: {fileID: 2100000, guid: d67a295ece33f734ca8c808260197f82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA3"
+    second: {fileID: 2100000, guid: 6bf421b661531bb41b36426452976449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA4"
+    second: {fileID: 2100000, guid: 6bf421b661531bb41b36426452976449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA5"
+    second: {fileID: 2100000, guid: c18302be85119fe46baf6a7a58073712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA6"
+    second: {fileID: 2100000, guid: c18302be85119fe46baf6a7a58073712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA7"
+    second: {fileID: 2100000, guid: 6bf421b661531bb41b36426452976449, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA7.001"
+    second: {fileID: 2100000, guid: d60c295984f0a874b87a844f3d2e686b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA8"
+    second: {fileID: 2100000, guid: d60c295984f0a874b87a844f3d2e686b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u6750\u8CEA9"
+    second: {fileID: 2100000, guid: 6bf421b661531bb41b36426452976449, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
