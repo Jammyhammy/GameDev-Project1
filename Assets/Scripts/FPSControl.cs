@@ -1,7 +1,14 @@
 using UnityEngine;
 using System.Collections;
 
-// Handles all of the FPS controls for Luke.
+// Handles all of the FPS controls for Luke
+// WASD, moves Luke around.
+// F or left click, melee attack
+// G or right click, ranged laser
+// CTRL, crouches
+// Hold Shift, sprints
+// Space, jump
+// F1 (cheat key) Kills enemies 
 
 [RequireComponent(typeof(CharacterController))]
 public class FPSControl : MonoBehaviour
@@ -115,10 +122,6 @@ public class FPSControl : MonoBehaviour
 
         if((Input.GetMouseButton(1) || Input.GetKey(KeyCode.G)) && !player.lightSaberDepleted) {
             LaserAttack();
-        }        
-
-        if(isAttacking) {
-            weapon.transform.localRotation *= Quaternion.AngleAxis(-5, Vector3.left);
         }
     }
 
@@ -128,7 +131,7 @@ public class FPSControl : MonoBehaviour
             meleeSound.Play();
             isAttacking = true;
             RaycastHit hit;
-            if(Physics.Raycast(transform.position, transform.forward, out hit, 3f)) {
+            if(Physics.Raycast(transform.position, transform.forward, out hit, 3.5f)) {
                 if(hit.collider.gameObject.CompareTag("Enemy")) {
                     hit.collider.gameObject.GetComponent<EnemyCharacter>().TakeDamage(100);
                 }
@@ -141,7 +144,7 @@ public class FPSControl : MonoBehaviour
         if(!isAttacking)
         {
             laserSound.Play();
-            Instantiate(laserPrefab, transform.position + transform.forward * 1.0f, transform.rotation);
+            Instantiate(laserPrefab, transform.position + transform.forward * 4.0f, transform.rotation);
             isAttacking = true;
             StartCoroutine(StopAttack());
         }
@@ -180,6 +183,10 @@ public class FPSControl : MonoBehaviour
         } else if(walking){
             walking = false;
         }
+        if(isAttacking) {
+            weapon.transform.localRotation *= Quaternion.AngleAxis(-5, Vector3.left);
+        }     
+
     }
 
     void Aiming() {
@@ -202,7 +209,6 @@ public class FPSControl : MonoBehaviour
             var mainCameraPos = new Vector3(mainCamera.transform.localPosition.x, mainCamera.transform.localPosition.y + crouchDeltaHeight, mainCamera.transform.localPosition.z);
             mainCamera.transform.localPosition = mainCameraPos;
             weapon.transform.localPosition = new Vector3(weapon.transform.localPosition.x, weapon.transform.localPosition.y + crouchDeltaHeight, weapon.transform.localPosition.z);
-            //weaponCamera.transform.position.y += crouchDeltaHeight;
             this.GetComponent<CharacterController>().height += crouchDeltaHeight;
             this.GetComponent<CharacterController>().center += new Vector3(0,crouchDeltaHeight/2, 0);
             stopCrouching = false;		

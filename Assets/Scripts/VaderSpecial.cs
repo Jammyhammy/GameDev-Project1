@@ -31,7 +31,7 @@ public class VaderSpecial : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player")){
             var player = other.gameObject.GetComponent<PlayerCharacter>();
-            player.TakeDamage(20);
+            player.TakeDamage(10);
             Destroy(gameObject);
         }        
     }    

@@ -53,8 +53,12 @@ public class ScoreManager : MonoBehaviour {
                 timer1.fillAmount = 1;
                 timer2.fillAmount = 1;
                 timer1.color = Color.red;
-                timer2.color = Color.red;                    
+                timer2.color = Color.red;       
+                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCharacter>().damageImage.color = Color.clear;             
             }
+        }
+        if (Input.GetKeyUp(KeyCode.F1)) {
+            allEnemies.ForEach(x => x.GetComponent<EnemyCharacter>().TakeDamage(50));
         }
         //Change when Vader can die to 0.
         if(allEnemies.Count <= 0) {

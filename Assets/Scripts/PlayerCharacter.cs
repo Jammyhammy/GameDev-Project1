@@ -14,9 +14,11 @@ public class PlayerCharacter : Character
     public bool lightSaberDepleted = false;
     public List<GameObject> allEnemies;
     public AudioSource hurtSound;
+    public AudioSource lowHealthSound;
     
 
     bool damaged;
+    bool healed;
     bool hasPalette = true;
 
     public void Awake()
@@ -25,27 +27,49 @@ public class PlayerCharacter : Character
 		currentHealth = startingHealth;
         isDead = false;
         healthSlider.value = currentHealth;
+        lowHealthSound.enabled = false;
+    }
+    public void Update() {
+        if(damaged) {
+            damageImage.color = flashColour;
+        } else if (healed) {
+            damageImage.color = Color.blue;
+        }
+        else {
+            damageImage.color = Color.Lerp (damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+        }
+        damaged = false;
+        healed = false;
+		if (currentHealth <= 0 && isDead) {
+			lowHealthSound.enabled = true;
+			damageImage.color = Color.Lerp (damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+		}
+		else if (currentHealth <= 0 && !isDead) {
+			lowHealthSound.enabled = true;
+			damageImage.color = Color.Lerp (damageImage.color, Color.green, flashSpeed * Time.deltaTime);
+		}
+        else {
+            lowHealthSound.enabled = false;
+        }
     }
 
     public override void TakeDamage(int amount){ 
         if(!ScoreManager.Instance.isInvincible) {
             if(isDead)
                 return;
-
-            if(damaged) {
-                damageImage.color = flashColour;
+            if(amount > 0) {
+                hurtSound.Play();
+                damaged = true;
             } else {
-                damageImage.color = Color.Lerp (damageImage.color, Color.clear, flashSpeed * Time.deltaTime);
+                healed = true;
             }
-            damaged = false;
-            
-            if(amount > 0) hurtSound.Play();
             currentHealth -= amount;
             if(currentHealth > 0) lightSaberDepleted = false;
             if(currentHealth <= 0 && ScoreManager.Instance.hasInvincible)
             {
                 if(currentHealth < 0 ) currentHealth = 0;
                 lightSaberDepleted = true;
+                damageImage.color = new Color(0f, 100f, 190f, 30f);
                 ScoreManager.Instance.YouInvincible();  
             }
             else if (currentHealth <= 0 && lightSaberDepleted) {

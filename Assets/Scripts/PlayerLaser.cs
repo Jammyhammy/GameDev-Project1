@@ -11,7 +11,7 @@ public class PlayerLaser : MonoBehaviour
     }
     public void Update()
     {
-        transform.position += transform.forward * Time.deltaTime * 100.0f;
+        transform.position += transform.forward * Time.deltaTime * 75.0f;
     }
 
     void OnCollisionEnter(Collision other)

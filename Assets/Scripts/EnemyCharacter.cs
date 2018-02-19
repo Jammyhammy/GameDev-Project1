@@ -19,6 +19,8 @@ public class EnemyCharacter : Character {
 	public float attackInterval = 3f;
 	public float specialTimer;
 	public float specialInterval = 15f;
+	public float kickTimer;
+	public float kickInterval = 5f;
 	public ParticleSystem particleHit;
 
 	public GameObject specialPrefab;
@@ -39,6 +41,7 @@ public class EnemyCharacter : Character {
 		startingHealth = 20;
 		if(isVader) {
 			specialTimer = 6f;
+			kickTimer = 5f;
 			startingHealth = 1000;
 			currentHealth = startingHealth;
 		}
@@ -50,13 +53,12 @@ public class EnemyCharacter : Character {
 			attackTimer -= Time.deltaTime;
 		if ( isVader && specialTimer > 0 )
 			specialTimer -= Time.deltaTime;
+		if ( isVader && kickTimer > 0 )
+			kickTimer -= Time.deltaTime;
 
 		AnimatorStateInfo state = animator.GetCurrentAnimatorStateInfo(0);
 		isAttacking = false;
 		if( InRange(attackRange) ) {
-			//Vector3 dirToPlayer = new Vector3(player.transform.position.x - gameObject.transform.position.x, 0.0f, player.transform.position.z - gameObject.transform.position.z);
-			//gameObject.transform.rotation = Quaternion.LookRotation(dirToPlayer);
-
 			Vector3 dir = (player.transform.position - transform.position).normalized;
 			Quaternion lookRotation = Quaternion.LookRotation(dir);
 			transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * 5.0f);			
@@ -100,11 +102,18 @@ public class EnemyCharacter : Character {
 			animator.SetBool("Aiming", true);
 			//animator.SetTrigger("Pickup");
 			specialSound.Play();
-
+			animator.Play ("TwoHandSpellCasting", -1, 0f);
 			Vector3 dirToPlayer = new Vector3(player.transform.position.x - gameObject.transform.position.x, 0.0f, player.transform.position.z - gameObject.transform.position.z);
 			Instantiate(specialPrefab, transform.position + transform.up * 1.0f + transform.forward * 2.0f, transform.rotation);
 
-		}		
+		}
+		var playerDistance = Vector3.Distance(this.transform.position, player.transform.position);
+		if ( isVader && playerDistance < 2 && kickTimer < 0 && specialTimer > 0) {
+			kickTimer = kickInterval;
+
+			Vector3 dirToPlayer = new Vector3(player.transform.position.x - gameObject.transform.position.x, 0.0f, player.transform.position.z - gameObject.transform.position.z);
+			animator.Play ("GreatSwordKick", -1, 0f);
+		}
 	}
 
 	public bool InRange(float range) {
@@ -114,39 +123,16 @@ public class EnemyCharacter : Character {
 		return false;
 	}
 
-	public void BeAttacked() {
-
-		if ( isDead )
-			return;
-
-		int damage = (int)Random.Range(100, 200);
-	}
-
 	public override void TakeDamage(int amount){
 		if (isDead ) return;
 		particleHit.Play();
 		base.TakeDamage(amount);
+		if (isVader) animator.Play ("HeadHit", -1, 0f);
 		if(currentHealth <= 0)
 		{
 			isDead = true;
 			Death();
 		}
-	}
-
-	public void Attack( ) {
-
-		// float distance = Vector3.Distance(player.transform.position, navAgent.nextPosition);
-
-		// Vector3 dir = ( player.transform.position - transform.position ).normalized;
-
-		// float direction = Vector3.Dot(transform.forward, dir);
-
-		// if ( direction > 0 && distance < attribute.attackDistance ) {
-		// 	player.BeAttacked( );
-		// } else {
-
-		// }
-
 	}
 
 	private void Death( ) {
